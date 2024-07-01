@@ -5,7 +5,7 @@ print('Not existing value:', my_dict.get('Roman'))
 my_dict.update({'Yura': 1986,
                 'Pavel': 1990})
 print('Modified dictionary:', my_dict)
-del my_dict['Alexander']
+my_dict.pop('Alexander')
 print('Deleted Alexander:', my_dict)
 
 
